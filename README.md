@@ -27,7 +27,8 @@ app but its accuracy
 ## Using ZECA
 * In Android Studio navigate to `File > New > Project from Version
  Control > Git` and paste `https://github.com/trayanmomkov/zeca.git`
-* When you run the app on your device you can use the **sample images**
+* When you run the app on your mobile device you can use the
+**sample images**
  from the menu or open one from your storage. The image must contain only
   one slashed
   zero or eight on a light background otherwise classifier cannot
@@ -45,7 +46,7 @@ The other important class is the `ImagePreprocessor`. It prepares the
   exact same order for the images used to train the model. If you change
    any of these manipulations you should train the model again. If you
     want to do that use the model training project:
-    [ZEC - Slashed Zero-Eight Classifier](https://github.com/trayanmomkov/zeca).
+    [ZEC - Slashed Zero-Eight Classifier](https://github.com/trayanmomkov/zec).
     
 The essential `MainActivity` method:
 ```
@@ -67,7 +68,7 @@ The essential `MainActivity` method:
 
 ## Contributing to ZECA
 The project **goals** are:
- * To be an example of using tflite on Andoid
+ * To be an example of using tflite on Android
  * To solve the specific problem of distinguishing slashed zeroes from
   eights
   
