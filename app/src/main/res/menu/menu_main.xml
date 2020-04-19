@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.trekto.zeca.MainActivity">
+
+    <item
+        android:id="@+id/action_open"
+        android:title="Open"
+        android:onClick="open"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/about"
+        android:onClick="showAbout"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_1"
+        android:title="Digit 1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_2"
+        android:title="Digit 2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_3"
+        android:title="Digit 3"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_4"
+        android:title="Digit 4"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_5"
+        android:title="Digit 5"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_6"
+        android:title="Digit 6"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_7"
+        android:title="Digit 7"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_8"
+        android:title="Digit 8"
+        app:showAsAction="ifRoom" />
+</menu>
